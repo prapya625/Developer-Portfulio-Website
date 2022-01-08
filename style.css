@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
-body {
+* {
   margin: 0;
   padding: 0;
   font-family: "Poppins", sans-serif;
@@ -24,6 +24,7 @@ body {
 
 .hero-content {
   max-width: 50%;
+  padding-top: 65px;
 }
 
 a.hire-me {
@@ -39,7 +40,13 @@ a.hire-me {
 div.hero-image {
   max-width: 50%;
 }
+.hero-content h1:nth-child(2) {
+  padding-bottom: 21px;
+}
 
+.hero-content h3 {
+  padding-bottom: 9px;
+}
 .hero-image img {
   width: 80%;
 }
@@ -49,4 +56,79 @@ section.hero {
   background: url("./Images/top-banner.png");
   /* background-size: cover; */
   background-repeat: no-repeat;
+}
+
+.dream_row {
+  display: flex;
+}
+
+.dream_col {
+  width: 50%;
+}
+
+img.dream_image {
+  width: 84%;
+}
+
+.dream_col.dream_content h1 {
+  font-size: 45px;
+  padding-bottom: 12px;
+}
+
+.dream_col.dream_content h3 {
+  font-size: 25px;
+  padding-bottom: 12px;
+}
+
+.dream_col.dream_content p {
+  padding-bottom: 14px;
+}
+
+.dream_col.dream_content {
+  padding-top: 63px;
+}
+section.dream {
+  margin-top: 67px;
+  background: url("./Images/dream-bg.png");
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: 20%;
+}
+
+h1.experience_heading {
+  font-size: 51px;
+  padding-bottom: 28px;
+}
+
+.experience_row {
+  display: flex;
+  justify-content: space-between;
+}
+.experience_col {
+  width: 38%;
+  box-shadow: 10px 10px 40px grey;
+  padding: 23px 35px;
+}
+h1.exp_main_heading {
+  font-size: 33px;
+  padding-bottom: 2px;
+}
+
+p.exp_sub_heading {
+  color: orange;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 4px 0 20px 0px;
+}
+.experience_col {
+  border-image: linear-gradient(purple, tomato);
+  border-image-slice: 1;
+  border-left: 7px solid;
+}
+section.experience {
+  margin-top: 82px;
+}
+
+h1.experience_heading {
+  padding-bottom: 62px;
 }
